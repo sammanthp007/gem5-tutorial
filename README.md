@@ -52,5 +52,5 @@ The user interface for gem5
 ### Interfacing
 > Write a python script that configures the simulator, runs the simulator, executes the simulator
 
-### * Scripts define system to model
-### * Control the simulation: All SimObjects are exposed to python
+* Scripts define system to model
+* Control the simulation: All C++ SimObjects in the source folder are exposed to python
