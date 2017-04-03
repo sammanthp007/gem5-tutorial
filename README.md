@@ -1,4 +1,11 @@
 # gem5 tutorial
+What is gem5?
+
+[gem5.org](http://gem5.org/Main_Page) says:
+> The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture > as well as processor microarchitecture.
+
+### What it is:
+* gem5 is a discreet even simulator
 
 ## Installation and Building in Ubuntu
 Install dependencies, in my case I needed these two:
