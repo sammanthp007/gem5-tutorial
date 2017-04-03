@@ -21,3 +21,10 @@ git checkout hpca
 scons build/X86/gem5.opt -j5
 ```
 
+`scons` is a build system that gem5 uses. 
+> Its like make but a million times more complicated.
+But used for felxibility. It is basically a python file which will be interpreted by a regular python interpreter.
+More info in [scons.org](http://scons.org)
+
+`build/X86/gem5.opt` is a parameter sent to the `Sconscript`file. 
+> This says, I want to build a `build` directory
