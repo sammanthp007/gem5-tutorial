@@ -76,4 +76,5 @@ build/X86/gem5.opt configs/hpca_tutorial/simple.py
 
 # Reference:
 [Learning gem5 HPCA tutorial](https://www.youtube.com/watch?v=5UT41VsGTsg)
+
 [Learning gem5](http://learning.gem5.org/)
