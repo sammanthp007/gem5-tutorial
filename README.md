@@ -4,8 +4,9 @@ What is gem5?
 [gem5.org](http://gem5.org/Main_Page) says:
 > The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture > as well as processor microarchitecture.
 
-### What it is:
+### Features, what it offers:
 * gem5 is a discreet event simulator. To do anything in gem5, you need to enqueue events and use the event driven process.
+* User interface for gem5 is not command line. The user interface for gem5 is **python scripts**
 
 ## Installation and Building in Ubuntu
 Install dependencies, in my case I needed these two:
@@ -45,3 +46,11 @@ Events are shot based on time. An event is shot at a specific time.
 
 <img src='https://github.com/sammanthp007/gem5-tutorial/blob/master/screenshots/simobject_and_events/output.gif' title='event driven process' width='' alt='event driven process' />
 
+## Python Scripts
+The user interface for gem5
+
+### Interfacing
+> Write a python script that configures the simulator, runs the simulator, executes the simulator
+
+### * Scripts define system to model
+### * Control the simulation: All SimObjects are exposed to python
