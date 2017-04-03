@@ -72,3 +72,7 @@ To run: Go to your root directory and
 # the binary is a built in python interpreter
 build/X86/gem5.opt configs/hpca_tutorial/simple.py
 ```
+
+
+# Reference:
+[Learning gem5 HPCA tutorial](https://www.youtube.com/watch?v=5UT41VsGTsg)
