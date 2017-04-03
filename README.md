@@ -40,3 +40,5 @@ More info in [scons.org](http://scons.org)
 Almost every thing is gem5 is a SimObject. It is an abstraction. All c++ object are SimObjects
 
 ### One thing SimObjects can do is enqueue events
+Events are shot based on time. An event is shot at a specific time.
+
