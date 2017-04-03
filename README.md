@@ -65,4 +65,4 @@ We are simulating the following system:
 mkdir -p configs/hpca_tutorials
 vim configs/hpca_tutorials/simple.py
 ```
-You can find the configuration of the simulation [here]()
+You can find the configuration of the simulation [here](https://github.com/sammanthp007/gem5-tutorial/blob/master/simple.py)
