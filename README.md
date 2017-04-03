@@ -54,3 +54,8 @@ The user interface for gem5
 
 * Scripts define system to model
 * Control the simulation: All C++ SimObjects in the source folder are exposed to python
+
+#### Exercise: Simulating a system
+We are simulating the following system:
+
+<img src='https://github.com/sammanthp007/gem5-tutorial/blob/master/screenshots/simple_script/simple_script.jpg' title='simple system' width='' alt='simple system' />
