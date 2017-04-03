@@ -66,3 +66,9 @@ mkdir -p configs/hpca_tutorials
 vim configs/hpca_tutorials/simple.py
 ```
 You can find the configuration of the simulation [here](https://github.com/sammanthp007/gem5-tutorial/blob/master/simple.py)
+
+To run: Go to your root directory and
+```
+# the binary is a built in python interpreter
+build/X86/gem5.opt configs/hpca_tutorial/simple.py
+```
