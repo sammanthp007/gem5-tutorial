@@ -5,7 +5,7 @@ What is gem5?
 > The gem5 simulator is a modular platform for computer-system architecture research, encompassing system-level architecture > as well as processor microarchitecture.
 
 ### What it is:
-* gem5 is a discreet even simulator
+* gem5 is a discreet event simulator. To do anything in gem5, you need to enqueue events and use the event driven process.
 
 ## Installation and Building in Ubuntu
 Install dependencies, in my case I needed these two:
@@ -40,5 +40,8 @@ More info in [scons.org](http://scons.org)
 Almost every thing is gem5 is a SimObject. It is an abstraction. All c++ object are SimObjects
 
 ### One thing SimObjects can do is enqueue events
-Events are shot based on time. An event is shot at a specific time.
+Events are shot based on time. An event is shot at a specific time. 
+> And to do anything in gem5, you need to enqueue and dequeue events.
+
+<img src='https://github.com/sammanthp007/gem5-tutorial/blob/master/screenshots/simobject_and_events/output.gif' title='event driven process' width='' alt='event driven process' />
 
