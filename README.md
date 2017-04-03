@@ -60,3 +60,9 @@ We are simulating the following system:
 
 <img src='https://github.com/sammanthp007/gem5-tutorial/blob/master/screenshots/simple_script/simple_script.jpg' title='simple system' width='' alt='simple system' />
 
+```
+# Create a configs directory: All configurations scripts go here
+mkdir -p configs/hpca_tutorials
+vim configs/hpca_tutorials/simple.py
+```
+You can find the configuration of the simulation [here]()
